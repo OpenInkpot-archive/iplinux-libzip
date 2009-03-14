@@ -1,0 +1,50 @@
+Source: libzip
+Section: core
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: cdbs, debhelper (>= 5.0.22), quilt, autotools-dev, zlib1g-dev
+Standards-Version: 3.8.0
+XCS-Cross-Host-Build-Depends: cdbs, cdbs-embedded, debhelper (>= 5.0.22), quilt, autotools-dev
+XCS-Cross-Build-Depends: libz1-dev
+
+Package: libzip-dev
+Section: libdevel
+Architecture: any
+Depends: libzip1 (= ${binary:Version}), zlib1-dev
+Description: library for reading, creating, and modifying zip archives (development)
+ libzip is a C library for reading, creating, and modifying zip archives. Files
+ can be added from data buffers, files, or compressed data copied directly from
+ other zip archives. Changes made without closing the archive can be reverted.
+ .
+ This package contains the static libraries and headers for developing
+ applications that use the libzip library API.
+ .
+  Homepage: http://www.nih.at/libzip/
+
+Package: libzip1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library for reading, creating, and modifying zip archives (runtime)
+ libzip is a C library for reading, creating, and modifying zip archives. Files
+ can be added from data buffers, files, or compressed data copied directly from
+ other zip archives. Changes made without closing the archive can be reverted.
+ .
+ This package contains the files necessary for running applications that
+ use the libzip library.
+ .
+  Homepage: http://www.nih.at/libzip/
+
+Package: libzip1-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Depends: libzip1 (= ${binary:Version})
+Description: library for reading, creating, and modifying zip archives (debug files)
+ libzip is a C library for reading, creating, and modifying zip archives. Files
+ can be added from data buffers, files, or compressed data copied directly from
+ other zip archives. Changes made without closing the archive can be reverted.
+ .
+ This package contains the files necessary for debugging applications that
+ use the libzip library.
+ .
+  Homepage: http://www.nih.at/libzip/

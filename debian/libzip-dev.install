@@ -1,0 +1,4 @@
+usr/include/zip.h
+usr/lib/libzip.a
+usr/lib/libzip.so
+usr/lib/pkgconfig/libzip.pc

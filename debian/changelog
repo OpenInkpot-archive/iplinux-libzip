@@ -1,0 +1,11 @@
+libzip (0.8-2) asimov; urgency=low
+
+  * First build for IPlinux.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sun, 15 Mar 2009 03:10:03 +0600
+
+libzip (0.8-1.oi1) stable; urgency=low
+
+  * first oi version
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Thu, 17 Jul 2008 16:37:51 +0000
