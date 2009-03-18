@@ -10,7 +10,7 @@ XCS-Cross-Build-Depends: libz1-dev
 Package: libzip-dev
 Section: libdevel
 Architecture: any
-Depends: libzip1 (= ${binary:Version}), zlib1-dev
+Depends: libzip1 (= ${binary:Version}), libz1-dev
 Description: library for reading, creating, and modifying zip archives (development)
  libzip is a C library for reading, creating, and modifying zip archives. Files
  can be added from data buffers, files, or compressed data copied directly from
