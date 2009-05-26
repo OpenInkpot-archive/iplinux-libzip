@@ -1,3 +1,9 @@
+libzip (0.8-4) asimov; urgency=low
+
+  * Rebuild to fix libgcc1 dependency.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Tue, 26 May 2009 23:14:28 +0700
+
 libzip (0.8-3) asimov; urgency=low
 
   * Fixed wrong zlib dependency in devel package.
