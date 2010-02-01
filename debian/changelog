@@ -1,3 +1,9 @@
+libzip (0.8-5) zelazny; urgency=low
+
+  * Fixed memory leak on error path in libzip_open
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Mon, 01 Feb 2010 20:46:30 +0600
+
 libzip (0.8-4) asimov; urgency=low
 
   * Rebuild to fix libgcc1 dependency.
